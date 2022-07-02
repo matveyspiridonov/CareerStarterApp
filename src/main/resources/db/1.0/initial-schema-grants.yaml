@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - logicalFilePath: 1.0/initial-schema-grants
+  - changeSet:
+      id: initial-schema-grants-0
+      author: spiridonov-ms
+      dbms: postgresql
+      changes:
+        - sql: create schema main;
+  - changeSet:
+      id: initial-schema-grants-1
+      author: spiridonov-ms
+      dbms: postgresql
+      changes:
+        - sql: grant usage on schema main to "pg_database_owner";
+  #        - sql: grant usage on schema avatar to "admin";
+  - changeSet:
+      id: initial-schema-grants-2
+      author: spiridonov-ms
+      dbms: postgresql
+      changes:
+        - sql: alter default privileges in schema main grant all on tables to "pg_database_owner";
+#        - sql: alter default privileges in schema avatar grant all on tables to "admin";

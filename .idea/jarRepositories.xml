@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="OKI_snapshot" />
+      <option name="name" value="OKI Snapshot Repo" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="OKI_group" />
+      <option name="name" value="OKI Group Repo" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="SBT_CI_distr_repo" />
+      <option name="name" value="SBT CI Distr Repo" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-central" />
+      <option name="name" value="Mirror of nexus-central" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="OKI_release" />
+      <option name="name" value="OKI Release Repo" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="OKI_thirdparty" />
+      <option name="name" value="OKI Thirdparty Repo" />
+      <option name="url" value="http://sbtnexus.delta.sbrf.ru:8081/nexus/content/groups/internal/" />
+    </remote-repository>
+  </component>
+</project>

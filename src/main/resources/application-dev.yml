@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/
+    username: postgres
+    password: pass
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  liquibase:
+    change-log: classpath:db/changelog-master.yaml
+    liquibase-schema: liquibase
+    enabled: true

@@ -1,0 +1,52 @@
+databaseChangeLog:
+  - logicalFilePath: 1.0/initial-schema
+  - changeSet:
+      id: initial-schema-0
+      author: spiridonov-ms
+      changes:
+        - createTable:
+            schemaName: main
+            tableName: vacancies
+            columns:
+              - column:
+                  name: id
+                  type: number
+                  constraints:
+                    nullable: false
+              - column:
+                  name: company_id
+                  type: number
+              - column:
+                  name: title
+                  type: text
+              - column:
+                  name: description
+                  type: text
+              - column:
+                  name: required_skills
+                  type: text
+              - column:
+                  name: vacancy_rank
+                  type: text
+              - column:
+                  name: salary
+                  type: number
+              - column:
+                  name: currency
+                  type: text
+  - changeSet:
+      id: initial-schema-1
+      author: spiridonov-ms
+      changes:
+        - createTable:
+            schemaName: main
+            tableName: companies
+            columns:
+              - column:
+                  name: id
+                  type: number
+                  constraints:
+                    nullable: false
+              - column:
+                  name: company_name
+                  type: text

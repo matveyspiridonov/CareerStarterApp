@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: initial-schema-grants.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: initial-schema.yaml
+      relativeToChangelogFile: true
